@@ -90,7 +90,13 @@
                       <tr>
                         <td style="padding:0 8px 16px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
                           <h2 style="margin:0 0 16px; font-family:Arial, Helvetica, sans-serif; font-size:20px; line-height:28px; font-weight:normal; color:#333333;">[About / campaign introduction]</h2>
-                          <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Campaign introduction text pending]</p>
+                          <p style="margin:0 0 16px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Campaign introduction text pending]</p>
+                          <!-- Replace the span with a styled link once approved copy and URL are supplied. -->
+                          <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                              <td bgcolor="#eeeeee" style="padding:14px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;"><span style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[About CTA text pending]</span></td>
+                            </tr>
+                          </table>
                         </td>
                       </tr>
                     </table>
@@ -156,16 +162,27 @@
           <!-- 05. Featured product promotion #2 -->
           <tr>
             <td class="section-padding" bgcolor="#ffffff" style="padding:24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
-              <!-- Shared featured-product pattern reversed: content column followed by image column. -->
+              <!-- Shared featured-product pattern: image-first source order, visually reversed on desktop with direction. -->
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="font-size:0; text-align:left;">
+                  <td dir="rtl" style="font-size:0; text-align:left;">
                     <!--[if mso]>
-                    <table role="presentation" width="552" cellpadding="0" cellspacing="0" border="0">
+                    <table role="presentation" dir="rtl" width="552" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td width="276" valign="top">
                     <![endif]-->
-                    <table role="presentation" class="module-column" width="100%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:100%; max-width:276px; vertical-align:top;">
+                    <table role="presentation" dir="ltr" class="module-column" width="100%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:100%; max-width:276px; vertical-align:top; direction:ltr;">
+                      <tr>
+                        <td style="padding:0 8px 16px;">
+                          <img src="images/placeholder-featured-product-2.jpg" width="260" height="320" alt="[Featured product 2 image placeholder]" style="display:block; width:100%; max-width:260px; height:auto; border:0; background-color:#eeeeee; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
+                        </td>
+                      </tr>
+                    </table>
+                    <!--[if mso]>
+                        </td>
+                        <td width="276" valign="top">
+                    <![endif]-->
+                    <table role="presentation" dir="ltr" class="module-column" width="100%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:100%; max-width:276px; vertical-align:top; direction:ltr;">
                       <tr>
                         <td style="padding:0 8px 16px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
                           <h2 style="margin:0 0 16px; font-family:Arial, Helvetica, sans-serif; font-size:20px; line-height:28px; font-weight:normal; color:#333333;">[Featured product #2]</h2>
@@ -176,17 +193,6 @@
                               <td bgcolor="#eeeeee" style="padding:14px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;"><span style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[CTA text pending]</span></td>
                             </tr>
                           </table>
-                        </td>
-                      </tr>
-                    </table>
-                    <!--[if mso]>
-                        </td>
-                        <td width="276" valign="top">
-                    <![endif]-->
-                    <table role="presentation" class="module-column" width="100%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:100%; max-width:276px; vertical-align:top;">
-                      <tr>
-                        <td style="padding:0 8px 16px;">
-                          <img src="images/placeholder-featured-product-2.jpg" width="260" height="320" alt="[Featured product 2 image placeholder]" style="display:block; width:100%; max-width:260px; height:auto; border:0; background-color:#eeeeee; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
                         </td>
                       </tr>
                     </table>
@@ -225,66 +231,54 @@ Inline tables wrap naturally. Outlook receives an explicit three-column, two-row
 <table role="presentation" class="recommended-column" width="33.33%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:33.33%; max-width:184px; vertical-align:top;">
   <tr><td style="padding:0 6px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
     <img src="images/placeholder-recommended-product-1.jpg" width="172" height="172" alt="[Recommended product 1 image placeholder]" style="display:block; width:100%; max-width:172px; height:auto; border:0; background-color:#eeeeee; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
-    <p style="margin:0 0 16px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Recommended product slot 1]</p>
-    <!-- Replace the span with a styled link once approved copy and URL are supplied. -->
-<table role="presentation" cellpadding="0" cellspacing="0" border="0">
-  <tr><td bgcolor="#eeeeee" style="padding:14px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;"><span style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[CTA text pending]</span></td></tr>
-</table>
+    <!-- Product image and name may become links after approved URLs are provided. -->
+    <p style="margin:0 0 8px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product name 1 pending]</p>
+    <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product price 1 pending]</p>
   </td></tr>
 </table>
 <!--[if mso]></td><td width="184" valign="top"><![endif]-->
 <table role="presentation" class="recommended-column" width="33.33%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:33.33%; max-width:184px; vertical-align:top;">
   <tr><td style="padding:0 6px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
     <img src="images/placeholder-recommended-product-2.jpg" width="172" height="172" alt="[Recommended product 2 image placeholder]" style="display:block; width:100%; max-width:172px; height:auto; border:0; background-color:#eeeeee; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
-    <p style="margin:0 0 16px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Recommended product slot 2]</p>
-    <!-- Replace the span with a styled link once approved copy and URL are supplied. -->
-<table role="presentation" cellpadding="0" cellspacing="0" border="0">
-  <tr><td bgcolor="#eeeeee" style="padding:14px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;"><span style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[CTA text pending]</span></td></tr>
-</table>
+    <!-- Product image and name may become links after approved URLs are provided. -->
+    <p style="margin:0 0 8px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product name 2 pending]</p>
+    <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product price 2 pending]</p>
   </td></tr>
 </table>
 <!--[if mso]></td><td width="184" valign="top"><![endif]-->
 <table role="presentation" class="recommended-column" width="33.33%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:33.33%; max-width:184px; vertical-align:top;">
   <tr><td style="padding:0 6px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
     <img src="images/placeholder-recommended-product-3.jpg" width="172" height="172" alt="[Recommended product 3 image placeholder]" style="display:block; width:100%; max-width:172px; height:auto; border:0; background-color:#eeeeee; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
-    <p style="margin:0 0 16px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Recommended product slot 3]</p>
-    <!-- Replace the span with a styled link once approved copy and URL are supplied. -->
-<table role="presentation" cellpadding="0" cellspacing="0" border="0">
-  <tr><td bgcolor="#eeeeee" style="padding:14px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;"><span style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[CTA text pending]</span></td></tr>
-</table>
+    <!-- Product image and name may become links after approved URLs are provided. -->
+    <p style="margin:0 0 8px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product name 3 pending]</p>
+    <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product price 3 pending]</p>
   </td></tr>
 </table>
 <!--[if mso]></td></tr><tr><td width="184" valign="top"><![endif]-->
 <table role="presentation" class="recommended-column" width="33.33%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:33.33%; max-width:184px; vertical-align:top;">
   <tr><td style="padding:0 6px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
     <img src="images/placeholder-recommended-product-4.jpg" width="172" height="172" alt="[Recommended product 4 image placeholder]" style="display:block; width:100%; max-width:172px; height:auto; border:0; background-color:#eeeeee; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
-    <p style="margin:0 0 16px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Recommended product slot 4]</p>
-    <!-- Replace the span with a styled link once approved copy and URL are supplied. -->
-<table role="presentation" cellpadding="0" cellspacing="0" border="0">
-  <tr><td bgcolor="#eeeeee" style="padding:14px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;"><span style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[CTA text pending]</span></td></tr>
-</table>
+    <!-- Product image and name may become links after approved URLs are provided. -->
+    <p style="margin:0 0 8px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product name 4 pending]</p>
+    <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product price 4 pending]</p>
   </td></tr>
 </table>
 <!--[if mso]></td><td width="184" valign="top"><![endif]-->
 <table role="presentation" class="recommended-column" width="33.33%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:33.33%; max-width:184px; vertical-align:top;">
   <tr><td style="padding:0 6px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
     <img src="images/placeholder-recommended-product-5.jpg" width="172" height="172" alt="[Recommended product 5 image placeholder]" style="display:block; width:100%; max-width:172px; height:auto; border:0; background-color:#eeeeee; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
-    <p style="margin:0 0 16px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Recommended product slot 5]</p>
-    <!-- Replace the span with a styled link once approved copy and URL are supplied. -->
-<table role="presentation" cellpadding="0" cellspacing="0" border="0">
-  <tr><td bgcolor="#eeeeee" style="padding:14px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;"><span style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[CTA text pending]</span></td></tr>
-</table>
+    <!-- Product image and name may become links after approved URLs are provided. -->
+    <p style="margin:0 0 8px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product name 5 pending]</p>
+    <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product price 5 pending]</p>
   </td></tr>
 </table>
 <!--[if mso]></td><td width="184" valign="top"><![endif]-->
 <table role="presentation" class="recommended-column" width="33.33%" cellpadding="0" cellspacing="0" border="0" style="display:inline-table; width:33.33%; max-width:184px; vertical-align:top;">
   <tr><td style="padding:0 6px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
     <img src="images/placeholder-recommended-product-6.jpg" width="172" height="172" alt="[Recommended product 6 image placeholder]" style="display:block; width:100%; max-width:172px; height:auto; border:0; background-color:#eeeeee; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">
-    <p style="margin:0 0 16px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Recommended product slot 6]</p>
-    <!-- Replace the span with a styled link once approved copy and URL are supplied. -->
-<table role="presentation" cellpadding="0" cellspacing="0" border="0">
-  <tr><td bgcolor="#eeeeee" style="padding:14px 24px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;"><span style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[CTA text pending]</span></td></tr>
-</table>
+    <!-- Product image and name may become links after approved URLs are provided. -->
+    <p style="margin:0 0 8px; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product name 6 pending]</p>
+    <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:#333333;">[Product price 6 pending]</p>
   </td></tr>
 </table>
 <!--[if mso]></td></tr></table><![endif]-->
