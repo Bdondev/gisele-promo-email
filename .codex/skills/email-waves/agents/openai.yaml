@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Waves"
+  short_description: "Create reliable decorative wave sections for HTML emails"
+  default_prompt: "Use $email-waves to create or integrate a responsive decorative wave for an HTML email."
